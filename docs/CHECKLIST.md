@@ -5,6 +5,7 @@
 - [x] M1.2 Server skeleton (env validation, Mongo, logger, /api/health, error handler) — 5/5 tests pass, manually verified
 - [x] M1.3 Client skeleton (Vite, Tailwind, Router, axios) — build + lint clean, dev server verified (not yet visually checked in a browser)
 - [x] M1.4 Client-server integration (Vite proxy, health status page w/ loading+error states) — lint+build clean, /api/health via proxy verified with curl, CORS whitelist verified. Visual browser check pending (user)
+- [x] M1.5 Frontend foundation: UI primitives (Button/Input/Card), AppLayout shell at /app (UI-only, unprotected until Phase 2), features/ dir — lint+build clean; not visually checked
 
 ## Phase 2: Authentication and organization management
 ## Phase 3: Multi-tenant architecture and RBAC
