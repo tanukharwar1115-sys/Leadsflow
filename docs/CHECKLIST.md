@@ -3,7 +3,7 @@
 ## Phase 1: Project setup and architecture
 - [x] M1.1 Project folder, git repo, .gitignore, README, checklist
 - [x] M1.2 Server skeleton (env validation, Mongo, logger, /api/health, error handler) — 5/5 tests pass, manually verified
-- [ ] M1.3 Client skeleton (Vite, Tailwind, Router, axios)
+- [x] M1.3 Client skeleton (Vite, Tailwind, Router, axios) — build + lint clean, dev server verified (not yet visually checked in a browser)
 - [ ] M1.4 Client-server integration (proxy, CORS, health status page)
 
 ## Phase 2: Authentication and organization management
