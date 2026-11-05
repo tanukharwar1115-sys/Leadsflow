@@ -4,7 +4,7 @@
 - [x] M1.1 Project folder, git repo, .gitignore, README, checklist
 - [x] M1.2 Server skeleton (env validation, Mongo, logger, /api/health, error handler) — 5/5 tests pass, manually verified
 - [x] M1.3 Client skeleton (Vite, Tailwind, Router, axios) — build + lint clean, dev server verified (not yet visually checked in a browser)
-- [ ] M1.4 Client-server integration (proxy, CORS, health status page)
+- [x] M1.4 Client-server integration (Vite proxy, health status page w/ loading+error states) — lint+build clean, /api/health via proxy verified with curl, CORS whitelist verified. Visual browser check pending (user)
 
 ## Phase 2: Authentication and organization management
 ## Phase 3: Multi-tenant architecture and RBAC
