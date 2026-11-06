@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-// withCredentials => HTTP-only auth cookie har request ke saath jayegi.
+// withCredentials => the HTTP-only auth cookie is sent with every request.
 export const http = axios.create({
   baseURL: import.meta.env.VITE_API_URL || '/api',
   withCredentials: true,

@@ -14,7 +14,7 @@ async function fetchHealth(signal) {
 export function useHealth() {
   const [state, setState] = useState({ loading: true, data: null, error: null })
 
-  // Initial load: state already loading=true hai, effect mein sync setState nahi.
+  // Initial load: state is already loading=true, so no synchronous setState in the effect.
   useEffect(() => {
     const ctrl = new AbortController()
     fetchHealth(ctrl.signal).then((next) => next && setState(next))

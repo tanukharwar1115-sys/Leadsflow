@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     port: 5173,
     strictPort: true,
-    // Dev mein /api => Express (5000). Browser ko same-origin dikhta hai, to cookie/CORS issues nahi.
+    // In dev, /api => Express (5000). The browser sees same-origin, so no cookie/CORS issues.
     proxy: { '/api': { target: 'http://localhost:5000', changeOrigin: true } },
   },
 })
