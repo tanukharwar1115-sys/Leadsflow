@@ -23,7 +23,7 @@ export function errorHandler(err, req, res, _next) {
     success: false,
     message: statusCode === 500 ? 'Internal server error' : err.message,
     ...(err.details && { details: err.details }),
-    // Stack sirf development mein
+    // Stack trace only in development
     ...(env.NODE_ENV === 'development' && statusCode === 500 && { stack: err.stack }),
   });
 }

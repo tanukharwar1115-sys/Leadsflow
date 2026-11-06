@@ -1,4 +1,4 @@
-// Operational errors (expected: 400/401/403/404...) ke liye. Baaki sab 500 treat honge.
+// For operational errors (expected: 400/401/403/404...). Everything else is treated as a 500.
 export class ApiError extends Error {
   constructor(statusCode, message, details) {
     super(message);
